@@ -227,8 +227,8 @@ if __name__ == "__main__":
     AudioFile = r'D:\Py\masr-master\record.wav'
     time1 = datetime.now()
     # 使用科大讯飞api来做的stt
-    wsParam = Ws_Param(APPID='f36a9c4e', APISecret='OTg3NWQyMzc3NjE2NTllOGM1ZGJjOTFh',
-                       APIKey='82035964e360ef886b75d7be1ac46fad',
+    wsParam = Ws_Param(APPID='', APISecret='',
+                       APIKey='',
                        AudioFile=AudioFile)
     websocket.enableTrace(False)
     wsUrl = wsParam.create_url()
